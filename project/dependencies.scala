@@ -196,7 +196,7 @@ object dependencies {
 
     "org.visualdataweb.vowl.owl2vowl" % "OWL2VOWL" % "0.2.1",
 
-    "org.mitre.dsmiley.httpproxy" % "smiley-http-proxy-servlet" % "1.9",
+    "org.mitre.dsmiley.httpproxy" % "smiley-http-proxy-servlet" % "1.12-SNAPSHOT",
 
     //JsonPath
     "com.jayway.jsonpath" % "json-path" % "2.4.0",

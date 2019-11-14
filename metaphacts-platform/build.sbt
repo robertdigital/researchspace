@@ -23,6 +23,8 @@ organization := "com.metaphacts"
 version := platformVersion
 licenses += "LGPL 2.1" -> url("http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html")
 
+resolvers += Resolver.mavenLocal
+
 libraryDependencies ++= Seq(
   sesame, logging, apacheCommons, misc, jackson, jersey, guice, testLibs, pac4j
 ).flatten excluding dependenciesToExclude ++ Seq("commons-beanutils" -> "commons-beanutils")

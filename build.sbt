@@ -61,3 +61,5 @@ lazy val platform = (project in file("."))
 // below parts are defined in project/RootBuildOptions.scala
 version := platformVersion
 licenseFile := licenseBundleOptions.licenseFile
+
+resolvers += Resolver.mavenLocal
