@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    if: github.event.action != 'labeled' || github.event.pull_request.label.name == 'build_image'
+    if: github.event.action != 'labeled' || github.event.label.name == 'build_image'
 
     steps:
       - uses: actions/checkout@v1
